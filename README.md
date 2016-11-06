@@ -6,7 +6,7 @@ originally written by Brad Davis and update to Raspberry PI 3 by Hash13
 The plugin also supports showing max, average and min CPU frequencies.
 
 
-<img src="https://raw.githubusercontent.com/hash13/gkrellm-gkfreq-raspberry-pi/screenshots/screenshot-rpi3.png"/>
+<img src="https://raw.githubusercontent.com/hash13/gkrellm-gkfreq-plugin-raspberry-pi/screenshots/screenshot-rpi3.png"/>
 
 Prebuild version for Raspberry PI 3:
 
