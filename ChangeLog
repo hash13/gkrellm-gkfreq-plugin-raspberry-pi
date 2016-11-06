@@ -1,0 +1,32 @@
+
+Version 2.4   2014-12-23
+===========
+Removed hardcoding in Makefile.
+
+
+Version 2.3   2014-06-15
+===========
+Changed method of reading CPU frequency to support intel_pstate driver.
+
+
+Version 2.2   2013-08-13
+===========
+Corrected allocation of About string
+Corrected spelling mistake.
+
+
+Version 2.1   2013-03-02
+===========
+Added automatic detection of number of CPUs.
+Added possibility to show max, average & min CPU frequency.
+Added config tab.
+
+
+Version 2.0   2010-03-04
+===========
+Added support for up to eight CPUs.
+
+
+Version 1.0
+===========
+Original version made by Brad Davis (brad@peakunix.net).

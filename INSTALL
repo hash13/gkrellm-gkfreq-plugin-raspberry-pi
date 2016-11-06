@@ -1,0 +1,17 @@
+Steps to install:
+=================
+
+To compile the gkrellm-gkfreq.so file:
+    make
+
+If you want to try the plugin before installing you can run
+    gkrellm -p gkrellm-gkfreq.so
+
+Then install in either /usr/lib/gkrellm2/plugins/ by doing
+    make install
+or in /usr/local/lib/gkrellm2/plugins/ by doing
+    make install-local
+or in ~/.gkrellm2/plugins by doing
+    make install-home
+
+Now the plugin is installed. Start GKrellM and enable the gkrellm-gkfreq plugin.
