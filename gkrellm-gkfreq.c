@@ -6,8 +6,9 @@
     Authors:
     Erik Kjellson <erikiiofph7@users.sourceforge.net>
     Brad Davis <brad@peakunix.net> (version 1.0)
+	Hash13
     
-    Copyright (C) 2005-2014
+    Copyright (C) 2005-2016
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -113,7 +114,6 @@ static gint get_cpu_freq(gint cpu_desired) {
   sprintf( fileName, "/sys/devices/system/cpu/cpu%d/cpufreq/scaling_cur_freq", cpu_desired );
   f = fopen(fileName, "r");
 
- // f = fopen("/proc/cpuinfo", "r");
   if (f == NULL && cpu_desired ==0) {
     printf("ERROR: GKRELLM-GKREQ: couldnt open cpufreq for reading (%s).\n",fileName);
     return -1;
